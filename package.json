@@ -1,0 +1,17 @@
+{
+  "name": "electron_ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron dist/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sentry/electron": "^1.2.0",
+    "@sentry/integrations": "^5.13.0",
+    "electron": "^7.1.14"
+  }
+}
